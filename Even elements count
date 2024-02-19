@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+//Given array of elements, count the even elements in it.
+
+int main()
+{
+    int count =0;
+    int arr[5]={ 1,2,5,4,6};
+
+    for(int i=0; i<5;i++)
+    {
+        if(arr[i]%2 ==0)
+        {
+            count= count +1;
+        }
+    }
+
+    cout<<"The no of even elements are:"<<count<<endl;
+}
